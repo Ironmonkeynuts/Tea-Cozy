@@ -1,0 +1,160 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    vertical-align:middle;
+  }
+
+h2 {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+h5 {
+    font-weight: bold;
+  }
+   
+   
+a {
+    text-decoration: none;
+  }
+
+body {
+    background-color: black;
+  }
+   
+/* header section */
+header {
+    display: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: flex;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px; 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    float: right;
+    text-decoration: underline;
+
+}
+
+.nav li {
+    list-style-type: none;
+    padding: 0 10px;
+    color:seashell;
+    
+}
+
+/* mission section */
+#mission {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    background-image: url("../images/img-mission-background.png");
+}
+
+#mission div {
+    width: 100%;
+    background-color: black;
+    padding: auto;
+  }
+
+/* featured section */
+#featured {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.item {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px 10px;
+    margin: 10px auto;
+  }
+
+.item h4 {
+    margin: 10px 10px;
+    padding: 10px auto;
+  }
+
+/* locations section */
+#locations {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    padding: auto;
+    margin: 0 auto;
+    background-image: url("../images/img-locations-background.png");
+    justify-content: center;
+    align-items: center;
+}
+
+#Locations h2 {
+    width: 100%;
+    align-self: center;
+}
+
+#box-grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 300px;
+    height: 260px;
+    background-color: black;
+    align-content: space-between;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+  }
+
+/* contact section */
+#contact {
+    height: 200px;
+    text-align: center;
+}
+ 
+/* footer section */
+
+footer {
+    text-align: left;
+    margin: 20px;
+}
+
+@media only screen and (max-with: 600px) {
+
+}
